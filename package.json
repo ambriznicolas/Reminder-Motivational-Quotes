@@ -1,0 +1,29 @@
+{
+  "name": "reminder-motivational-quotes",
+  "version": "1.0.0",
+  "description": "Send motivational quotes to user after they sign up.",
+  "main": "server.js",
+  "scripts": {
+    "build": "tailwindcss -i ./public/css-signup/signup.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./public/css-signup/signup.css -o ./css/main.css --watch ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js "
+  },
+  "author": "Nicolas Ambriz",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "@mailchimp/mailchimp_transactional": "^1.0.50",
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "node-fetch": "^2.6.9",
+    "request": "^2.88.2",
+    "sib-api-v3-sdk": "^8.5.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "keywords": []
+}
