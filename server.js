@@ -7,7 +7,7 @@ let defaultClient = SibApiV3Sdk.ApiClient.instance;
 
 let apiKey = defaultClient.authentications["api-key"];
 apiKey.apiKey =
-  "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";
+  ""
 
 let apiInstance = new SibApiV3Sdk.ContactsApi();
 
