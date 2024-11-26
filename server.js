@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const request = require("request");
 
 
-let defaultClient = SibApiV3Sdk.ApiClient.instance;
+let defaultClient = 
 
 let apiKey = defaultClient.authentications["api-key"];
 apiKey.apiKey =
